@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sickgirl</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <h1 style= 'color:pink'><center>sicK girL</center></h1>
+<datalist>nbk</datalist>
+<p><center>The purpose of this blog is for me to document my life, to have something to be remembered by, maybe after death you can figure out what went wrong with me, because i never did. <a href="http://www.acolumbinesite.com/" style="color:#ffc">i'll always be sick.</a></center>
+<html>
+
+<marquee>i don't want what you have, i want to be <em>you</em>.</marquee>
+
+<h2 style='color: pink'><center>my innermost thoughts</center></h2> <a href="journalreal.html"> <center><img src="trauma.png"></a></center> <marquee>FALSE REALITY FALSE REALITY FALSE REALITY</marquee><h2 style='color: pink'><center>my music</center></h2> <a href="music.html"> <center><img src="suicide.png" width="250" height="220" alt="Computer Hope"></a></center> <marquee style="color:#ffc">curdled milk and baby teeth</marquee>
+<h2 style='color: pink'><center>b a n g</center></h2> <a href="peace.html"> <center><img src="bang.png" width="230" height="220" alt="image"></a></center>
+<marquee style="color:#ffc">SICK SICK SICK SICK SICK</marquee>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+</style>
+</head>
+<body>
+
+<h2>Snackbar / Toast</h2>
+<p>Snackbars are often used as a tooltips/popups to show a message at the bottom of the screen.</p>
+<p>Click on the button to show the snackbar. It will disappear after 3 seconds.</p>
+
+<button onclick="myFunction()">Show Snackbar</button>
+
+<div id="snackbar">4/20/24...</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+
+</body>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.buttonload {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  font-size: 16px; /* Set a font-size */
+}
+
+/* Add a right margin to each icon */
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+</style>
+</head>
+<body>
+
+<h2>Loading Buttons</h2>
+
+<button class="buttonload">
+  <i class="fa fa-spinner fa-spin"></i>Loading
+</button>
+
+<button class="buttonload">
+  <i class="fa fa-circle-o-notch fa-spin"></i>Loading
+</button>
+
+<button class="buttonload">
+  <i class="fa fa-refresh fa-spin"></i>Loading
+</button>
+
+</body>
+<body>
+
+<h1>Typewriter</h1>
+
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = '4/20/24';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+<style>
+#div1 {
+  font-size:48px;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div id="div1" class="fa"></div>
+
+<script>
+function smile() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf118;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf119;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 3000);
+}
+smile();
+setInterval(smile, 4000);
+</script>
+
+</body>
+</html>
